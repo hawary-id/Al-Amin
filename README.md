@@ -16,7 +16,6 @@ Sebelum mulai, pastikan Anda telah menginstal perangkat lunak berikut di sistem 
 Ikuti langkah-langkah berikut untuk menginstal dan menjalankan proyek ini:
 
 1. **Clone repository**
-
    ```bash
    git clone https://github.com/username/repository.git
 
@@ -24,19 +23,19 @@ Ikuti langkah-langkah berikut untuk menginstal dan menjalankan proyek ini:
    ```bash
    cd repository
    
-3. **Install dependensi PHP""
+3. Install dependensi PHP
     ```bash
    composer install
 
-4. ""Buat file '.env'**
+4. Buat file '.env'
     ```bash
    copy .env.example .env
 
-5. ""Generate key aplikasi""
+5. Generate key aplikasi
     ```bash
    php artisan key:generate
 
-6. ""Set konfigurasi database""
+6. Set konfigurasi database
     ```bash
     DB_CONNECTION=pgsql
     DB_HOST=127.0.0.1
@@ -45,19 +44,19 @@ Ikuti langkah-langkah berikut untuk menginstal dan menjalankan proyek ini:
     DB_USERNAME=nama_pengguna
     DB_PASSWORD=kata_sandi
 
-7. ""Jalankan migrasi database""
+7. Jalankan migrasi database
     ```bash
     php artisan migrate
 
-8. ""Install dependensi front-end""
-     ```bash
-    npm install
+8. Install dependensi front-end
+   ```bash
+   npm install
           
-9. ""Build aset front-end""
+9. Build aset front-end
     ```bash
     npm run dev
     
-10. ""Jalankan server pengembangan""
+10. Jalankan server pengembangan
      ```bash
     php artisan serve
     
